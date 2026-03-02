@@ -1,0 +1,22 @@
+$bg-color:#4cafef;
+$text-color:white;
+
+.student-list{
+    list-style-type:none;
+    padding:0;
+
+    .student-item{
+        background-color: $bg-color;
+        margin:8px 0;
+        padding:12px;
+        color:$text-color;
+        font-weight:600;
+        border-radius: 8px;
+        transition:transform 0.2s;
+
+        &:hover{
+            transform:scale(1.05);
+            cursor:pointer;
+        }
+    }
+}
